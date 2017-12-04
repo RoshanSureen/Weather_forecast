@@ -1,10 +1,15 @@
-# ReduxSimpleStarter
+# Weather Forecast React App 
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+This project uses React framework and redux to create a 5-day weather forecast for all states in US
+
+The project uses [OpenWeatherMaps](https://openweathermap.org/forecast5) to fetch the weather data
+
+The graphs shown in the project are built using [React-Sparklines](https://github.com/borisyankov/react-sparklines)
+
+ 
 
 ### Getting Started
 
-There are two methods for getting started with this repo.
 
 #### Familiar with Git?
 Checkout this repo, install dependencies, then start the gulp process with the following:
@@ -12,14 +17,6 @@ Checkout this repo, install dependencies, then start the gulp process with the f
 ```
 > git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
 > cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
 > npm install
 > npm start
 ```
